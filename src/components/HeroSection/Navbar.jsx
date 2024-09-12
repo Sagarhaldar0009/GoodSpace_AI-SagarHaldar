@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../../Styling/NavBar.scss'
 import { StartTrial } from '../Common/StartTrial';
+import Logo from "../../assets/Logo.png";
 
 export const NavBar = () => {
   // State to control menu visibility on mobile
@@ -13,7 +14,9 @@ export const NavBar = () => {
   return (
     <div className='navbar-container'>
       {/* Logo */}
-      <div className='logo'>Logo</div>
+      <div className='logo'>
+        <img src={Logo} alt="Logo" />
+      </div>
 
       {/* Hamburger icon for small screens */}
       <div className='hamburger' onClick={toggleMenu}>
