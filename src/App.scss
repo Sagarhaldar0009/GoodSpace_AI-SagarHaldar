@@ -6,6 +6,28 @@ body, html {
 }
 
 
+// .app-container {
+//   width: 100%;
+//   height: auto;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   background: linear-gradient(0deg, #F1F5F9, #F1F5F9),
+//               linear-gradient(182.42deg, #E3F0F9 2.03%, #F8FAFC 17.33%, #F1F5F9 62.04%);
+//   padding: 0px;
+
+//   .big-screen{
+//     width: 100%;
+//   }
+  
+//   @media only screen and (max-width: 768px) {
+//     width: 100%;
+//     height: auto;
+//     padding: 0px;
+//   }
+// }
+
 .app-container {
   width: 100%;
   height: auto;
@@ -15,11 +37,20 @@ body, html {
   justify-content: center;
   background: linear-gradient(0deg, #F1F5F9, #F1F5F9),
               linear-gradient(182.42deg, #E3F0F9 2.03%, #F8FAFC 17.33%, #F1F5F9 62.04%);
-  padding: 20px;
-  
+  padding: 0px;
+
+  .big-screen {
+    width: 100%;
+  }
+
   @media only screen and (max-width: 768px) {
     width: 100%;
     height: auto;
     padding: 0px;
+    
+    .big-screen {
+      display: none; /* Hide the .big-screen div on small screens */
+    }
   }
 }
+
