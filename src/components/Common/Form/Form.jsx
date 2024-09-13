@@ -1,5 +1,5 @@
 import React from 'react'
-import {StartTrial} from '../../../components/Common/StartTrial'
+import { StartTrial } from '../StartTrial/StartTrial'
 import './Form.scss'
 const Form = () => {
   return (

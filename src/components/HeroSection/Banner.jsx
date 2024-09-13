@@ -1,6 +1,5 @@
 import React from 'react'
-// import { StartTrial } from '../Common/StartTrial'
-import '../../Styling/Banner.scss'
+import './Banner.scss'
 import Form from '../Common/Form/Form'
 
 export const Banner = () => {

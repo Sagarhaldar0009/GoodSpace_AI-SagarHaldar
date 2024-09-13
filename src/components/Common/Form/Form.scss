@@ -31,7 +31,6 @@
           padding: 12px 20px;
         }
       
-        /* Mobile styles */
         @media only screen and (max-width: 768px) {
           flex-direction: column; 
           
@@ -67,12 +66,5 @@
         background-color: #94A3B8;
         border-radius: 50%;
       }
-  
-      /* Mobile styles */
-    //   @media only screen and (max-width: 768px) {
-    //     flex-direction: column;
-    //     align-items: center;
-    //     gap: 6px;
-    //   }
     }
   }

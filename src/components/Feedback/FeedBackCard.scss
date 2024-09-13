@@ -1,14 +1,11 @@
 .card-box{
     width: Fill (348.67px)px;
     height: Hug (268px)px;
-    padding: 24px 0px 0px 0px;
+    padding: 10px 24px 10px;
     gap: 28px;
     border-radius: 12px 0px 0px 0px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-
-    background: #365EEE1A;
-
     border: 1px solid #365EEE4D;
 
     display: flex;
@@ -29,85 +26,26 @@
         color: #64748B;
     }
 
-    // .id{
-    //     width: Hug (180px)px;
-    //     // height: Hug (48px)px;
-    //     height: 48px;
-    //     gap: 15px;
-    //     opacity: 0px;
-    //     display: flex;
-
-    //     image{
-    //         width: 48px;
-    //         height: 48px;
-    //         gap: 0px;
-    //         border-radius: 48px 0px 0px 0px;
-    //         opacity: 0px;
-
-    //     }
-
-    //     .name-pos{
-    //         width: Hug (117px)px;
-    //         // height: Hug (48px)px;
-    //         height: 48px;
-    //         gap: 4px;
-    //         opacity: 0px;
-    //         display: flex;
-    //         flex-direction: column;
-
-    //         .name{
-    //             width: 117px;
-    //             height: 20px;
-    //             gap: 0px;
-    //             opacity: 0px;
-
-    //             font-family: Inter;
-    //             font-size: 20px;
-    //             font-weight: 600;
-    //             line-height: 28.4px;
-    //             text-align: left;
-
-    //             color: #475569;
-    //         }
-
-    //         .pos{
-    //             width: 64px;
-    //             height: 16px;
-    //             gap: 0px;
-    //             opacity: 0px;
-
-    //             font-family: Inter;
-    //             font-size: 14px;
-    //             font-weight: 400;
-    //             line-height: 16.24px;
-    //             text-align: left;
-
-    //             color:  #64748B;
-
-    //         }
-    //     }
-    // }
-
     .id {
-        width: 180px; /* Set explicit width */
-        height: 48px; /* Set explicit height */
+        width: 180px;
+        height: 48px;
         gap: 15px;
         display: flex;
-        align-items: center; /* Vertically align content */
-        opacity: 1; /* Set opacity to make it visible */
+        align-items: center;
+        opacity: 1;
       
         .image {
           width: 48px;
           height: 48px;
-          border-radius: 50%; /* Make the image circular */
-          object-fit: cover; /* Ensure image fits the container */
+          border-radius: 50%;
+          object-fit: cover;
           opacity: 1;
         }
       
         .name-pos {
           display: flex;
           flex-direction: column;
-          justify-content: center; /* Vertically align the name and position within the div */
+          justify-content: center; 
           gap: 4px;
       
           .name {
@@ -116,9 +54,9 @@
             font-weight: 600;
             line-height: 28.4px;
             color: #475569;
-            white-space: nowrap; /* Prevent text from wrapping */
+            white-space: nowrap; 
             overflow: hidden;
-            text-overflow: ellipsis; /* Add ellipsis for overflow */
+            text-overflow: ellipsis; 
           }
       
           .pos {
@@ -127,7 +65,7 @@
             font-weight: 400;
             line-height: 16.24px;
             color: #64748b;
-            white-space: nowrap; /* Prevent text wrapping */
+            white-space: nowrap; 
             overflow: hidden;
             text-overflow: ellipsis;
           }
