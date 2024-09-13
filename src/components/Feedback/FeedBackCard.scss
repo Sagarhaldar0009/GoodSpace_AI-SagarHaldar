@@ -1,75 +1,72 @@
-.card-box{
-    width: Fill (348.67px)px;
-    height: Hug (268px)px;
-    padding: 10px 24px 10px;
-    gap: 28px;
-    border-radius: 12px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    border: 1px solid #365EEE4D;
+.card-box {
+  width: 348.67px;
+  height: 268px;
+  padding: 10px 24px;
+  gap: 28px;
+  border-radius: 12px;
+  border: 1px solid #365EEE4D;
+  display: flex;
+  flex-direction: column;
+  background-color: #dde8f9de;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .feed {
+    width: 300.67px;
+    height: 144px;
+    gap: 0px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.68px;
+    text-align: left;
+    color: #64748b;
+  }
+
+  .id {
+    width: 180px;
+    height: 48px;
+    gap: 15px;
     display: flex;
-    flex-direction: column;
-
-    .feed{
-        width: 300.67px;
-        height: 144px;
-        gap: 0px;
-        opacity: 0px;
-
-        font-family: Inter;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 23.68px;
-        text-align: left;
-
-        color: #64748B;
+    align-items: center;
+    .image {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      object-fit: cover;
     }
 
-    .id {
-        width: 180px;
-        height: 48px;
-        gap: 15px;
-        display: flex;
-        align-items: center;
-        opacity: 1;
-      
-        .image {
-          width: 48px;
-          height: 48px;
-          border-radius: 50%;
-          object-fit: cover;
-          opacity: 1;
-        }
-      
-        .name-pos {
-          display: flex;
-          flex-direction: column;
-          justify-content: center; 
-          gap: 4px;
-      
-          .name {
-            font-family: 'Inter', sans-serif;
-            font-size: 20px;
-            font-weight: 600;
-            line-height: 28.4px;
-            color: #475569;
-            white-space: nowrap; 
-            overflow: hidden;
-            text-overflow: ellipsis; 
-          }
-      
-          .pos {
-            font-family: 'Inter', sans-serif;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 16.24px;
-            color: #64748b;
-            white-space: nowrap; 
-            overflow: hidden;
-            text-overflow: ellipsis;
-          }
-        }
+    .name-pos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 4px;
+
+      .name {
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28.4px;
+        color: #475569;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
-      
+
+      .pos {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.24px;
+        color: #64748b;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
 }
