@@ -19,9 +19,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 20px;
+  padding: 10px 20px;
   background: linear-gradient(0deg, #1353DD, #1353DD),linear-gradient(93.69deg, #2D56EC -14.13%, #1AACEA 120.91%);
-  border-radius: 4px;
+  border-radius: 10px;
   color: #F8FAFC;
   border: none; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -30,8 +30,7 @@
   text-decoration: none; 
 
   &:hover {
-    background: linear-gradient(0deg, #0E3D8F, #0E3D8F),
-                linear-gradient(93.69deg, #1E4A9E -14.13%, #1791E8 120.91%);
+    background: linear-gradient(0deg, #1353DD, #1353DD),linear-gradient(93.69deg, #2D56EC -14.13%, #1AACEA 120.91%);
     transform: scale(1.05);
   }
 
