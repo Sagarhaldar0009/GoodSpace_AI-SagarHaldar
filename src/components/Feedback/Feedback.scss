@@ -1,0 +1,50 @@
+.feedback-container{
+    width: Fill (1,366px)px;
+    height: Hug (589px)px;
+    padding: 80px 0px 120px 0px;
+    gap: 70px;
+    opacity: 0px;
+    background: var(--50, #F8FAFC);
+
+    .heading{
+        width: Fill (1,366px)px;
+        height: Hug (51px)px;
+        padding: 0px 120px 0px 120px;
+        gap: 50px;
+        opacity: 0px;
+        display: flex;
+        justify-content: center;
+
+        .heading-text{
+            width: 393px;
+            height: 51px;
+            gap: 0px;
+            opacity: 0px;
+
+            font-family: Extatica;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 51.2px;
+            text-align: left;
+
+            /* Set the gradient as the background */
+            background: linear-gradient(90.16deg, #2D56EC 0.21%, #1AACEA 100.08%);
+            /* Clip the background to the text */
+            -webkit-background-clip: text;
+            background-clip: text;
+            /* Make the text transparent so the gradient shows */
+            color: transparent;
+        }   
+    }
+
+    .feedbacks{
+        width: Fill (1,366px)px;
+        height: Hug (268px)px;
+        padding: 0px 120px 0px 120px;
+        gap: 40px;
+        opacity: 0px;
+
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

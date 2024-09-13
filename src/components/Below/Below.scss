@@ -23,38 +23,17 @@
             gap: 50px;
             opacity: 0px;
 
-            // .line{
-            //     font-family: Extatica;
-            //     font-size: 40px;
-            //     font-weight: 600;
-            //     line-height: 51.2px;
-            //     text-align: left;
-
-            //     color: linear-gradient(90.16deg, #355DED 0.21%, #6F33F0 100.08%), 
-            //            linear-gradient(90.37deg, #2D56EC 0.3%, #2480EB 54.66%, #1AACEA 112.39%);
-
-            // }
-
             .line {
                 font-family: Extatica;
                 font-size: 40px;
                 font-weight: 600;
                 line-height: 51.2px;
                 text-align: left;
-              
-                /* Apply the gradient as background */
-                background: linear-gradient(
-                  90.16deg,
-                  #355ded 0.21%,
-                  #6f33f0 100.08%
-                );
-                /* Clip the background to the text */
+
+                background: linear-gradient(90.16deg, #2D56EC 0.21%, #1AACEA 100.08%);
                 -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                
-                /* This will ensure the text shows the gradient color */
                 background-clip: text;
-                text-fill-color: transparent;
+                color: transparent;
               }
               
         }

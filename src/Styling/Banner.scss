@@ -57,7 +57,16 @@
       font-size: 28px;
       font-weight: 500;
       line-height: 35.84px;
-      color: #2D56EC;
+      // color: #2D56EC;
+      /* Set the gradient as the background */
+      background: linear-gradient(90.16deg, #2D56EC 0.21%, #1AACEA 100.08%);
+        
+      /* Clip the background to the text */
+      -webkit-background-clip: text;
+      background-clip: text;
+
+      /* Make the text transparent so the gradient shows */
+      color: transparent;
   
       /* Mobile styles */
       @media only screen and (max-width: 768px) {
@@ -77,7 +86,7 @@
   
     /* Mobile styles */
     @media only screen and (max-width: 768px) {
-      font-size: 36px;
+      font-size: 35px;
       line-height: 50px;
     }
   }
