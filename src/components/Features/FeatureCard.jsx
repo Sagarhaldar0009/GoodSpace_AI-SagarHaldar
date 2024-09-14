@@ -1,5 +1,5 @@
 import React from 'react';
-import './FeatureCard.scss'; // Make sure to import your Sass file
+import './FeatureCard.scss';
 
 const FeatureCard = ({image, title, desc}) => {
   return (

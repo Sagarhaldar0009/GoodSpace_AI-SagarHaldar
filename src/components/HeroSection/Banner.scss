@@ -180,21 +180,12 @@
         background-color: #94A3B8;
         border-radius: 50%;
       }
-  
-      /* Mobile styles */
-    //   @media only screen and (max-width: 768px) {
-    //     flex-direction: column;
-    //     align-items: center;
-    //     gap: 6px;
-    //   }
     }
   }
   
   .start-trial {
-    /* Styles for StartTrial button */
     padding: 12px 20px;
-    background: linear-gradient(0deg, #1353DD, #1353DD),
-                linear-gradient(93.69deg, #2D56EC -14.13%, #1AACEA 120.91%);
+    background: linear-gradient(0deg, #1353DD, #1353DD),linear-gradient(93.69deg, #2D56EC -14.13%, #1AACEA 120.91%);
     border-radius: 4px;
     color: white;
     font-size: 16px;
@@ -202,7 +193,6 @@
     opacity: 1;
     cursor: pointer;
   
-    /* Mobile styles */
     @media only screen and (max-width: 768px) {
       width: 100%;
       max-width: 300px;

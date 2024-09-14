@@ -1,5 +1,4 @@
 .container{
-    // width: Fill (1,366px)px;
     width: 100%;
     height: Hug (408px)px;
     padding: 64px 100px ;
@@ -11,11 +10,9 @@
 
     .footer-UI{
         width: Fill (1,126px)px;
-        // height: Hug (244px)px;
         height: 100%;
         padding-right: 160px;
         padding-left: 30px;
-        // gap: 48px;
         opacity: 0px;
         display: flex;
         flex-direction: column;
@@ -30,161 +27,18 @@
             flex-direction: column;
         }
 
-        // .div1{
-        //     width: Fill (1,126px)px;
-        //     height: Hug (128px)px;
-        //     gap: 400px;
-        //     display: flex;
-        //     justify-content: space-between;
-        //     opacity: 0px;
-
-        //     @media (min-width: 768px) {
-        //         display: flex;
-        //         flex-direction: column;
-        //     }
-            
-        //     .logo{
-        //         width: Fill (563px)px;
-        //         height: Hug (44px)px;
-        //         padding: 10px 8px 10px 0px;
-        //         gap: 10px;
-        //         opacity: 0px;
-
-        //     }
-
-        //     .information{
-        //         width: 563px;
-        //         height: 128px;
-        //         gap: 0px;
-        //         opacity: 0px;
-                
-        //         .info{
-        //             width: Fixed (563px)px;
-        //             height: Hug (128px)px;
-        //             left: 563px;
-        //             gap: 40px;
-        //             opacity: 0px;
-
-        //             .Address{
-        //                 width: Hug (147px)px;
-        //                 height: Hug (64px)px;
-        //                 gap: 16px;
-        //                 opacity: 0px;
-                        
-        //                 .location{
-        //                     width: Hug (87px)px;
-        //                     height: Hug (24px)px;
-        //                     gap: 8px;
-        //                     opacity: 0px;
-        //                     display: flex;
-
-        //                     .icon-location{
-        //                         width: 24px;
-        //                         height: 24px;
-        //                         gap: 0px;
-        //                         opacity: 0px;
-
-        //                         // color: #2D57EC;
-
-        //                     }
-
-        //                     .icon-location-text{
-        //                         width: 55px;
-        //                         height: 17px;
-        //                         gap: 0px;
-        //                         opacity: 0px;
-
-        //                         font-family: Inter;
-        //                         font-size: 14px;
-        //                         font-weight: 400;
-        //                         line-height: 16.94px;
-        //                         text-align: left;
-
-        //                         // color: #64748B;
-        //                         color:  #ffffff;
-        //                     }
-
-        //                     .icon-call{
-        //                         width: 24px;
-        //                         height: 24px;
-        //                         gap: 0px;
-        //                         opacity: 0px;
-        //                     }
-
-        //                     .icon-call-text{
-        //                         width: 115px;
-        //                         height: 17px;
-        //                         gap: 0px;
-        //                         opacity: 0px;
-
-        //                         font-family: Inter;
-        //                         font-size: 14px;
-        //                         font-weight: 400;
-        //                         line-height: 16.94px;
-        //                         text-align: left;
-
-        //                         // color:  #64748B;
-        //                         color:  #ffffff;
-
-        //                     }
-        //                 }
-        //             }
-
-        //             .social{
-        //                 width: 218px;
-        //                 height: 24px;
-        //                 gap: 0px;
-        //                 opacity: 0px;
-        //                 display: flex;
-        //                 align-items: baseline;
-
-        //                 .sm-text{
-        //                     width: 85px;
-        //                     height: 17px;
-        //                     top: 107px;
-        //                     gap: 0px;
-        //                     opacity: 0px;
-
-        //                     font-family: Inter;
-        //                     font-size: 14px;
-        //                     font-weight: 400;
-        //                     line-height: 16.94px;
-        //                     text-align: left;
-                            
-        //                     // color:  #94A3B8;
-        //                     color:  #ffffff;
-        //                 }
-
-        //                 .sm-icon{
-        //                     width: Hug (120px)px;
-        //                     height: Hug (24px)px;
-        //                     top: 104px;
-        //                     left: 98px;
-        //                     display: flex;
-        //                     align-items: baseline;
-        //                     gap: 24px;
-        //                     opacity: 0px;
-
-        //                     display: flex;
-        //                 }
-        //             }
-        //         }
-        //     }
-        // }
-
         .div1 {
             width: 100%;
             height: auto;
-            gap: 20px; /* Adjust gap for smaller screens */
+            gap: 20px;
             display: flex;
             justify-content: space-evenly;
             opacity: 0px;
           
-            // For smaller screens, change flex-direction to column
             @media (max-width: 768px) {
               flex-direction: column;
               align-items: center;
-              gap: 30px; /* More gap for vertical stacking */
+              gap: 30px; 
             }
           
             .logo {
@@ -193,10 +47,7 @@
               padding: 10px 8px;
               gap: 10px;
               opacity: 1;
-            //   display: flex;
-            //   justify-content: flex-start;
-          
-              // Adjust to center the logo on smaller screens
+
               @media (max-width: 768px) {
                 margin-bottom: 20px;
                 display: flex;
@@ -212,7 +63,7 @@
           
               @media (max-width: 768px) {
                 display: flex;
-                flex-direction: column; /* Stack vertically */
+                flex-direction: column; 
                 align-items: center;
               }
           
@@ -296,13 +147,10 @@
           
 
         .div2{
-            // width: 1126px;
             width: 100%;
             height: 2px;
             gap: 0px;
             opacity: 0px;
-            // background-color: #F1F5F9;
-
         }
 
         .div3{
@@ -457,7 +305,6 @@
                 height: 18px;
                 gap: 0px;
                 opacity: 0.5px;
-                // padding: 60px;
                 
                 font-family: Assistant;
                 font-size: 14px;
