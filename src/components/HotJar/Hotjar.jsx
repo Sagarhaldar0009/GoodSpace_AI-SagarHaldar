@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hotjar.scss'; 
-import hotjarLogo from '../../assets/Hotjar.png';
+// import hotjarLogo from '../../assets/Hotjar.png';
+import hotjarLogo from '../../assets/hotjar.png';
 
 const EnterpriseSection = () => {
     const logos = Array(6).fill(hotjarLogo); // Create an array of logos
