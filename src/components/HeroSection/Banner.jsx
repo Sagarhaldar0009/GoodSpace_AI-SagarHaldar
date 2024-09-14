@@ -5,7 +5,7 @@ import Form from '../Common/Form/Form'
 export const Banner = () => {
   return (
     <>
-        <div className='heading-container'>
+        <div className='heading-container' style={{backgroundColor:"#F0F6FB"}}>
             {/* Heading */}
             <div className='written'>
                 <div>

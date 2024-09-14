@@ -1,0 +1,174 @@
+// .card-container{
+//     width: Fill (354px)px;
+//     height: Fill (236px)px;
+//     padding: 20px 0px 0px 0px;
+//     gap: 20px;
+//     border-radius: 16px 0px 0px 0px;
+//     border: 1px 0px 0px 0px;
+//     opacity: 0px;
+
+//     background: var(--50, #F8FAFC);
+
+//     border: 1px solid;
+//     border-image-source: linear-gradient(180deg, rgba(252, 129, 40, 0.5) 0%, rgba(252, 180, 40, 0.5) 100%);
+
+//     display: flex;
+//     flex-direction: column;
+
+
+//     .img-title{
+//         width: Fill (314px)px;
+//         height: Hug (32px)px;
+//         gap: 8px;
+//         opacity: 0px;
+//         display: flex;
+
+
+//         .icon{
+//             width: 32px;
+//             height: 32px;
+//             padding: 6.25px 6px 7.25px 6px;
+//             gap: 6.67px;
+//             border-radius: 3.33px 0px 0px 0px;
+//             opacity: 0px;
+
+//         }
+
+//         .icon{
+//             width: 274px;
+//             height: 27px;
+//             gap: 0px;
+//             opacity: 0px;
+
+//             font-family: Inter;
+//             font-size: 20px;
+//             font-weight: 600;
+//             line-height: 26.8px;
+//             text-align: left;
+
+//             color: var(--600, #475569);
+//         }
+
+//     }
+
+//     .card-desc{
+//         width: 314px;
+//         height: 144px;
+//         gap: 0px;
+//         opacity: 0px;
+
+//         font-family: Inter;
+//         font-size: 16px;
+//         font-weight: 400;
+//         line-height: 23.68px;
+//         text-align: left;
+
+//         color: var(--500, #64748B);
+//     }
+// }
+
+// .card-container {
+//     width: 354px;
+//     height: auto; /* Adjust height to content */
+//     padding: 20px;
+//     gap: 20px;
+//     border-radius: 16px;
+//     opacity: 1;
+    
+//     background: #F8FAFC;
+//     border: 1px solid;
+//     border-image-source: linear-gradient(180deg, rgba(252, 129, 40, 0.5) 0%, rgba(252, 180, 40, 0.5) 100%);
+    
+//     display: flex;
+//     flex-direction: column;
+//     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    
+//     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  
+//     &:hover {
+//       transform: translateY(-5px);
+//       box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+//     }
+    
+//     .img-title {
+//       display: flex;
+//       align-items: center; /* Vertically center content */
+//       gap: 16px;
+      
+//       .icon {
+//         width: 48px; /* Increased image size */
+//         height: 48px;
+//         border-radius: 8px;
+//         background-color: #fbfbfb; /* Add a soft background to the icon */
+//         padding: 8px;
+//         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05); /* Soft shadow for the image */
+//       }
+      
+//       .title {
+//         font-family: 'Inter', sans-serif;
+//         font-size: 20px;
+//         font-weight: 600;
+//         line-height: 28px;
+//         color: #475569;
+//       }
+//     }
+    
+//     .card-desc {
+//       font-family: 'Inter', sans-serif;
+//       font-size: 16px;
+//       font-weight: 400;
+//       line-height: 24px;
+//       color: #64748B;
+//       margin-top: 12px;
+//     }
+//   }
+  
+.card-container {
+    width: 100%; /* Full width to adapt to screen size */
+    max-width: 354px; /* Limit the card size */
+    height: 236px;
+    padding: 20px; /* Add padding */
+    margin: 0 auto; /* Center the card horizontally */
+    border-radius: 16px;
+    background: var(--50, #F8FAFC);
+    border: 1px solid; /* Single boundary */
+    border-image-source: linear-gradient(
+      180deg,
+      rgba(252, 129, 40, 0.5) 0%,
+      rgba(252, 180, 40, 0.5) 100%
+    );
+    display: flex;
+    flex-direction: column;
+  
+    @media (max-width: 768px) {
+      padding-left: 16px;
+      padding-right: 16px;
+      max-width: 100%; /* Ensure card fills available width */
+    }
+  
+    .img-title {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+  
+      .icon {
+        width: 48px;
+        height: 48px;
+      }
+  
+      .title {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--600, #475569);
+      }
+    }
+  
+    .card-desc {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--500, #64748B);
+      line-height: 23.68px;
+    }
+  }
+  
