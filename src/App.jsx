@@ -12,10 +12,16 @@ function App() {
   return (
     <div className="app-container">
       <HeroSection/>
-      <Hotjar/>
-      <Features/>
-      <Integration/>
-      <div className='big-screen'>
+      <div id='hero-section'>
+        <Hotjar/>
+      </div> 
+      <div id="features-section">
+        <Features />
+      </div>
+      <div id='integrate'>
+        <Integration/>
+      </div>
+      <div className='big-screen' id='feedback-section'>
         <Feedback/>
         <Below/> 
       </div>

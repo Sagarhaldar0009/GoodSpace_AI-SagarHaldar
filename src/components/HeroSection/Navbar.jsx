@@ -11,6 +11,14 @@ export const NavBar = () => {
     setIsMenuOpen(!isMenuOpen);
   }
 
+  // Scroll to a specific section
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   return (
     <div className='navbar-container'>
       {/* Logo */}
@@ -25,13 +33,15 @@ export const NavBar = () => {
 
       <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}> {/* Navigation links, only show on larger screens or when the menu is open */}
         <div className='first'>
-          <div className='first-in'>Blogs</div>
-          <div className='first-in'>Features</div>
-          <div className='first-in'>Pricing</div>
-          <div className='first-in'>Integrations</div>
+          <div className='first-in' onClick={() => scrollToSection('hero-section')}>Blogs</div>
+          {/* <div className='first-in' >Features</div> */}
+          <div className='first-in' onClick={() => scrollToSection('features-section')}>Features</div>
+          <div className='first-in' onClick={() => scrollToSection('feedback-section')}>Pricing</div>
+          <div className='first-in' onClick={() => scrollToSection('integrate')}>Integrations</div>
         </div>
         <StartTrial/>
       </div>
     </div>
   );
 }
+
