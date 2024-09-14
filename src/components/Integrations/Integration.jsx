@@ -8,7 +8,7 @@ import IntegrationCard from './IntegrationCard';
 
 const Integration = () => {
   return (
-    <div className='integration'>
+    <div className='integration-div'>
         <div className='heading'>
             <div className='text'>Integrations</div>
         </div>
